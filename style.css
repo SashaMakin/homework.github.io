@@ -57,7 +57,10 @@ padding: 0;
     align-items: center;
     width: 300px;
 }
-
+.buttonchange {
+    border: none;
+    background-color: #FFFFFF;
+}
  /* Основная часть */
 
  .shadow {
@@ -266,6 +269,9 @@ font-family: 'TTLakes-Thin' ,sans-serif;
     height: 322px;
     justify-content: space-between;  
    }
+   .burger {
+    border: none;
+   }
 .copy {
         width: 360px;
         height: 208px;
@@ -411,6 +417,7 @@ font-family: 'TTLakes-Thin' ,sans-serif;
         line-height: 20px;
         margin-top: 188.22px;
         margin-left: 35px;
+        display: grid;
     }
     .readmoreblock {
         position: absolute;
@@ -423,9 +430,10 @@ font-family: 'TTLakes-Thin' ,sans-serif;
     width: 531.35px;
     height: 307px;
     position: absolute;
-    margin-top: 170px;
+    margin-top: 179px;
     margin-left: 561px;
     border-radius: 10px;
+    text-align: start;
 } 
 .title {
         display: flex;
@@ -499,11 +507,15 @@ height: 24px;
     position: absolute;
     margin-top: 42px;
     margin-left: 849px;
+    border: none;
+   background-color: #F8F8F8;
 }
 
 .btncheckstatus {
     position: absolute;
     margin-top: 42px;
     margin-left: 1049px;
+    border: none;
+    background-color: #F8F8F8;
 }
 }
