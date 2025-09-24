@@ -381,6 +381,7 @@ font-family: 'TTLakes-Thin' ,sans-serif;
     width: 360px;
     height: 208px;
     grid-area: copy;
+    border-radius: 10px;
 } 
 .readmoreblock {
     margin-left: 16px;
@@ -421,6 +422,7 @@ font-family: 'TTLakes-Thin' ,sans-serif;
     position: absolute;
     margin-top: 170px;
     margin-left: 561px;
+    border-radius: 10px;
 } 
 .title {
         display: flex;
