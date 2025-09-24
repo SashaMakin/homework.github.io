@@ -32,6 +32,7 @@ padding: 0;
     justify-content: space-between;
     align-items: center;
     Height: 88px;
+    width: 320px;
     background-color:#FFFFFF;
     margin: 0;
     padding: 0;
@@ -62,6 +63,7 @@ padding: 0;
  .shadow {
    height: 1px;
    background-color: #D9FFF5;
+   width: 320px;
 }
 
 .mainmenu {
@@ -69,9 +71,11 @@ padding: 0;
             display: flex;
             flex-direction: column;
             list-style-type: none;
+            width: 320px;
             height: 509px;
             justify-content: space-evenly;
             line-height: 14px;
+            overflow: hidden;
 }
 
 .title {
@@ -93,7 +97,6 @@ padding: 0;
     height: 40px;
     margin-left: 24px;
     line-height: 200%;
-    overflow: hidden;
 }
 
 .slidemenu {
