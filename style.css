@@ -45,7 +45,7 @@ padding: 0;
     justify-content: space-around;
     align-items: center;
     width: 220px;
-    margin: 0;
+    margin-left: 16px;
     padding: 0;
 }
 
@@ -100,6 +100,7 @@ padding: 0;
     height: 40px;
     margin-left: 24px;
     line-height: 200%;
+    overflow: scroll;
 }
 
 .slidemenu {
@@ -353,6 +354,7 @@ font-family: 'TTLakes-Thin' ,sans-serif;
     .slide {
        Width: 768px;
         Height: 40px;
+        overflow: scroll;
     }
     .slidemenu1 {
          display: none;
@@ -517,5 +519,8 @@ height: 24px;
     margin-left: 1049px;
     border: none;
     background-color: #F8F8F8;
+}
+.shadow {
+    display: none;
 }
 }
