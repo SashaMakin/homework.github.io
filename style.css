@@ -1,0 +1,504 @@
+@font-face {
+    font-family: 'TTLakes-Thin';
+    src: url('C:/Users/Доре/Documents/www/TTLakes-Thin.woff') 
+    }
+
+body {
+    font-family: 'TTLakes-Thin' ,sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+  /* Шапка сайта */
+
+.upper-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    Height: 88px;
+    background-color:#FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+   /* Левая часть иконок */
+
+.upper-menu_leftside {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 220px;
+    margin: 0;
+    padding: 0;
+}
+
+   /* Правая часть иконок */
+
+.upper-menu_rightside {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    width: 300px;
+}
+
+ /* Основная часть */
+
+ .shadow {
+   height: 1px;
+   background-color: #D9FFF5;
+}
+
+.mainmenu {
+            background: #F8F8F8;
+            display: flex;
+            flex-direction: column;
+            list-style-type: none;
+            height: 509px;
+            justify-content: space-evenly;
+            line-height: 14px;
+}
+
+.title {
+        display: flex;
+        align-items: center;
+}
+.uslugi {
+    font-size: 28px;
+    letter-spacing: -0,6px;
+    margin-left: 16px;
+    font-weight: 700;
+    color: #1B1C21;
+}
+
+.slide {
+    display: flex;
+    flex-direction: row;
+    width: 504px ;
+    height: 40px;
+    margin-left: 24px;
+    line-height: 200%;
+    overflow: hidden;
+}
+
+.slidemenu {
+width: 246px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;  
+}
+
+.slidemenublock {
+     text-align: center;
+     font-size: 16px;
+     color: #7e7e82;
+     font-weight: 500;
+        font-family: 'TTLakes-Thin' ,sans-serif;
+   }
+
+   .slidemenu1 {
+width:233px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;  
+}
+
+.slidemenublock1 {
+     text-align: center;
+     font-size: 16px;
+     color: #7e7e82;
+     font-weight: 500;
+        font-family: 'TTLakes-Thin' ,sans-serif;
+   }
+
+   .slidemenu5 {
+width: 233px;
+    height: 40px;
+     border: none;
+     background-color: #F8F8F8;
+}
+
+.slidemenublock5 {
+     text-align: center;
+     font-size: 16px;
+     color: #7e7e82;
+     font-weight: 500;
+        font-family: 'TTLakes-Thin' ,sans-serif;
+   }
+
+   .slidemenu6 {
+width: 95px;
+    height: 40px;
+     border: none;
+     background-color: #F8F8F8;
+}
+
+.slidemenublock6 {
+     text-align: center;
+     font-size: 16px;
+     color: #7e7e82;
+     font-weight: 500;
+        font-family: 'TTLakes-Thin' ,sans-serif;
+   }
+
+   .slidemenu2 {
+    width: 258px;
+    height: 40px;
+    background-color: #F8F8F8;
+    border: none;
+}
+
+.slidemenublock2 {
+     text-align: center;
+     font-size: 16px;
+     color: #7e7e82;
+     font-weight: 500;
+    font-family: 'TTLakes-Thin' ,sans-serif;
+   }
+
+   .slidemenu3 {
+    width: 143px;
+    height: 40px;
+     background-color: #F8F8F8;
+     border: none;
+}
+
+.slidemenublock3 {
+     text-align: center;  
+     font-size: 16px;
+    color: #7e7e82;
+    font-weight: 500;
+    font-family: 'TTLakes-Thin' ,sans-serif;
+   }
+
+   .slidemenu4 {
+    width: 172px;
+    height: 40px;
+    background-color: #F8F8F8;
+    border: none;
+}
+
+.slidemenublock4 {
+     text-align: center;  
+     font-size: 16px;
+     color: #7e7e82;
+     font-weight: 500;
+     font-family: 'TTLakes-Thin' ,sans-serif;
+   }
+
+
+
+.textbox {
+    width: 288px;
+    height: 90px;
+    margin-left: 16px;
+    font-weight: 400;
+    overflow: hidden;
+    white-space: pre-wrap;
+    
+}
+
+.content {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'TTLakes-Thin' ,sans-serif;
+    letter-spacing: 0,2;
+    margin: 0;
+}
+
+.readmoreblock {
+    margin-left: 16px;
+    grid-area: block;
+}
+
+.readmorebutton {
+    display: flex;
+    border: none;
+    background: #F8F8F8;
+}
+
+.textread {
+ line-height: 150%;
+font-size: 16px;
+text-align: center;
+font-weight: 500;
+font-family: 'TTLakes-Thin' ,sans-serif;
+}
+
+.expandimg {
+    width: 24px;
+    height: 24px;
+}
+
+.blocktext { 
+    margin-left: 16px;
+    font-size: 16px;
+    line-height: 0px;
+}
+
+
+
+@media (max-width: 767px) {
+    .footer {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 322px;
+    justify-content: space-between;  
+   }
+.copy {
+        width: 360px;
+        height: 208px;
+    }
+    .slidemenu1 {
+         display: none;
+    }
+ .slidemenu5 {
+         display: none;
+    }
+ .slidemenu6 {
+         display: none;
+    }
+
+.slidemenu4 {
+       display: none;
+    }
+.slidemenu3 {
+       display: none;
+    }
+.call {
+       display: none;
+    }
+.chat {
+       display: none;
+    }
+.profile {
+       display: none;
+    }
+.divider2 {
+       display: none;
+    }
+    .titlerightside {
+        display: none;
+    }
+    .copy {
+    width: 320px;
+    height: 176px;
+}
+  .repair2link{
+        display: none;
+    }
+.btncheckstatus{
+        display: none;
+    }
+.btnrepair{
+        display: none;
+    }
+.ckstatus2link{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1119px) {
+    
+    .footer {
+    display: grid;
+    align-items:start;
+    grid-template-columns: 1fr 1fr;
+    width: 720px;
+    height: 208px;
+    grid-template-areas: "text copy"
+                        "block .";
+    justify-content: space-between;  
+   }
+    .upper-menu {
+       Width: 768px;
+        Height: 88px;
+        
+    }
+     .shadow {
+       width: 768px;
+    }
+    .mainmenu {
+       Width: 768px;
+        height: 509px;
+        line-height: 18px;
+    }
+    .slide {
+       Width: 768px;
+        Height: 40px;
+    }
+    .slidemenu1 {
+         display: none;
+    }
+ .slidemenu5 {
+         display: none;
+    }
+ .slidemenu6 {
+         display: none;
+    }
+    .titlerightside {
+        display: none;
+    }
+    .repair2link{
+        display: none;
+    }
+.btncheckstatus{
+        display: none;
+    }
+.btnrepair{
+        display: none;
+    }
+.ckstatus2link{
+        display: none;
+    }
+    .textbox {
+        display: grid;
+        width: 312px;
+        height: 160px;
+        margin-left: 24px;
+        line-height: 18px;
+        grid-area: text;
+    }
+    .copy {
+    width: 360px;
+    height: 208px;
+    grid-area: copy;
+} 
+.readmoreblock {
+    margin-left: 16px;
+    grid-area: block;
+}
+}
+@media (min-width: 1120px) {
+
+   .mainmenu {
+    margin: 0;
+       display: block;
+        position: relative;
+        Width: 1120px;
+        height: 535px;
+        line-height: 20px;
+    }
+    .upper-menu {
+        display: none;
+    }
+    .textbox {
+        position: absolute;
+        Width: 490px;
+        height: 160px;
+        line-height: 20px;
+        margin-top: 188.22px;
+        margin-left: 35px;
+    }
+    .readmoreblock {
+        position: absolute;
+        Width: 132px;
+        height: 24px;
+        margin-top: 362px;
+        margin-left: 33px;
+}
+    .copy {
+    width: 531.35px;
+    height: 307px;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 561px;
+} 
+.title {
+        display: flex;
+        align-items: center;
+         position: absolute;
+         width: 266px;
+    height: 40px;
+    margin-top: 42px;
+}
+.slide {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1063px ;
+    height: 82px;
+    margin-left: 33px;
+    margin-top: 90px;
+
+}
+.slidemenu2{
+    display: none;
+}
+
+.slidemenu {
+    border: none;
+     background-color: #F8F8F8;
+}
+/* .titleall {
+    display: flex;
+flex-direction: row;
+height: 80px;
+} */
+/* .titlerightside {
+    display: flex;
+} */
+/* .repair2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 716px;
+}
+
+.checkstatus2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 921px;
+} */
+.repair2link {
+position: absolute;
+width: 125px;
+height: 24px;
+    margin-top: 50px;
+    margin-left: 716px;
+}
+
+.ckstatus2link {
+position: absolute;
+width: 125px;
+height: 24px;
+    margin-top: 50px;
+    margin-left: 921px;
+}
+
+.btnrepair {
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 849px;
+}
+
+.btncheckstatus {
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 1049px;
+}
+}
