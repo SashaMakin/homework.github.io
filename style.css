@@ -19,56 +19,23 @@ html {
 margin: 0;
 padding: 0;
 }
-
 .main {
     display: flex;
     flex-direction: column;
 }
-
   /* Шапка сайта */
-
 .upper-menu {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     Height: 88px;
     width: 320px;
     background-color:#FFFFFF;
-    margin: 0;
-    padding: 0;
-}
-
-   /* Левая часть иконок */
-
-.upper-menu_leftside {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 220px;
-    margin-left: 16px;
-    padding: 0;
-}
-
-   /* Правая часть иконок */
-
-.upper-menu_rightside {
-    display: flex;
-    justify-content: space-around; 
-    align-items: center;
-    width: 300px;
-}
-.buttonchange {
-    border: none;
-    background-color: #FFFFFF;
 }
  /* Основная часть */
-
  .shadow {
    height: 1px;
    background-color: #D9FFF5;
    width: 320px;
 }
-
 .mainmenu {
             background: #F8F8F8;
             display: flex;
@@ -80,7 +47,6 @@ padding: 0;
             line-height: 14px;
             overflow: hidden;
 }
-
 .title {
         display: flex;
         align-items: center;
@@ -259,10 +225,48 @@ font-family: 'TTLakes-Thin' ,sans-serif;
     font-size: 16px;
     line-height: 0px;
 }
-
+.checkstatus {
+    margin-right: 16px ;
+   }
 
 
 @media (max-width: 767px) {
+    .upper-menu {
+    position: relative;
+   }
+ 
+   .pos1 {
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 16px;
+    border: none;
+    background-color: #FFFFFF;
+   }  
+   .group {
+    position: absolute;
+    margin-top: 18.59px;
+    margin-left: 72.73px;
+   }
+   .divider {
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 186px;
+   }
+   .pos2 {
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 208px;
+    border: none;
+    background-color: #FFFFFF;
+   }
+   .pos3 {
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 264px;
+    border: none;
+    background-color: #FFFFFF;
+   }
+
     .footer {
     display: flex;
     flex-direction: column;
@@ -270,64 +274,29 @@ font-family: 'TTLakes-Thin' ,sans-serif;
     height: 322px;
     justify-content: space-between;  
    }
-   .burger {
-    border: none;
-   }
-.copy {
-        width: 360px;
-        height: 208px;
-    }
-    .slidemenu1 {
-         display: none;
-    }
- .slidemenu5 {
-         display: none;
-    }
- .slidemenu6 {
-         display: none;
-    }
-
-.slidemenu4 {
-       display: none;
-    }
-.slidemenu3 {
-       display: none;
-    }
-.call {
-       display: none;
-    }
-.chat {
-       display: none;
-    }
-.profile {
-       display: none;
-    }
-.divider2 {
-       display: none;
-    }
-    .titlerightside {
-        display: none;
+    
+.slidemenu1,
+.slidemenu5,
+.slidemenu6,
+.slidemenu4,
+.slidemenu3,
+.call,
+.chat, 
+.profile,
+.divider2,
+.titlerightside,
+.repair2link,
+.btncheckstatus,
+.btnrepair,
+.ckstatus2link{
+      display: none;
     }
     .copy {
     width: 320px;
     height: 176px;
+} 
 }
-  .repair2link{
-        display: none;
-    }
-.btncheckstatus{
-        display: none;
-    }
-.btnrepair{
-        display: none;
-    }
-.ckstatus2link{
-        display: none;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1119px) {
-    
+@media (min-width: 768px) and (max-width: 1119px) {  
     .footer {
     display: grid;
     align-items:start;
@@ -341,11 +310,84 @@ font-family: 'TTLakes-Thin' ,sans-serif;
     .upper-menu {
        Width: 768px;
         Height: 88px;
-        
     }
+
+     /* Кнопки */
+
+    .pos1 {
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 24px;
+    border: none;
+    background-color: #FFFFFF;
+   }  
+
+   .divider2 {
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 84px;
+   }
+
+   .group {
+    position: absolute;
+    margin-top: 18.59px;
+    margin-left: 106.73px;
+   }
+
+   .pos4 {
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 454px;
+    border: none;
+    background-color: #FFFFFF;
+    }
+
+    .pos5 {
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 510px;
+    border: none;
+    background-color: #FFFFFF;
+    }
+
+    .pos6 {
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 566px;
+    border: none;
+    background-color: #FFFFFF;
+    }
+
+   .divider {
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 626px;
+   }
+
+   .pos2 {
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 648px;
+    border: none;
+    background-color: #FFFFFF;
+   }
+
+   .pos3 {
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 704px;
+    border: none;
+    background-color: #FFFFFF;
+   } 
+   
+     /* Полоска */
+
      .shadow {
        width: 768px;
     }
+
+    /* Основная часть */
+
     .mainmenu {
        Width: 768px;
         height: 509px;
@@ -356,30 +398,17 @@ font-family: 'TTLakes-Thin' ,sans-serif;
         Height: 40px;
         overflow: scroll;
     }
-    .slidemenu1 {
-         display: none;
-    }
- .slidemenu5 {
-         display: none;
-    }
- .slidemenu6 {
-         display: none;
-    }
-    .titlerightside {
+    .slidemenu1,
+    .slidemenu5, 
+    .slidemenu6,
+    .titlerightside, 
+    .repair2link,
+    .btncheckstatus,
+    .btnrepair,
+    .ckstatus2link {
         display: none;
     }
-    .repair2link{
-        display: none;
-    }
-.btncheckstatus{
-        display: none;
-    }
-.btnrepair{
-        display: none;
-    }
-.ckstatus2link{
-        display: none;
-    }
+
     .textbox {
         display: grid;
         width: 312px;
@@ -388,17 +417,20 @@ font-family: 'TTLakes-Thin' ,sans-serif;
         line-height: 18px;
         grid-area: text;
     }
+
     .copy {
     width: 360px;
     height: 208px;
     grid-area: copy;
     border-radius: 10px;
 } 
-.readmoreblock {
+
+    .readmoreblock {
     margin-left: 16px;
     grid-area: block;
 }
 }
+
 @media (min-width: 1120px) {
 
    .mainmenu {
@@ -408,6 +440,7 @@ font-family: 'TTLakes-Thin' ,sans-serif;
         Width: 1120px;
         height: 535px;
         line-height: 20px;
+        overflow-x: scroll;
     }
     .upper-menu {
         display: none;
@@ -454,6 +487,7 @@ font-family: 'TTLakes-Thin' ,sans-serif;
     height: 82px;
     margin-left: 33px;
     margin-top: 90px;
+    
 
 }
 .slidemenu2{
@@ -464,14 +498,12 @@ font-family: 'TTLakes-Thin' ,sans-serif;
     border: none;
      background-color: #F8F8F8;
 }
-/* .titleall {
+.titleall {
     display: flex;
-flex-direction: row;
-height: 80px;
-} */
-/* .titlerightside {
+}
+.titlerightside {
     display: flex;
-} */
+}
 /* .repair2 {
     display: flex;
     align-items: center;
